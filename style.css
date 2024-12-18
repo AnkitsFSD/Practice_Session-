@@ -1,0 +1,231 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(194, 223, 249);
+    color: #333;
+}
+/* NavBar & Header Style */
+
+.container nav ul{
+    padding: 0;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    background: #333;
+    list-style: none;
+    margin-top: 0;
+}
+
+.container nav ul li{
+    margin: 0 15px;
+
+}
+
+.container nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding:10px 15px;
+    display: block;
+
+}
+.container nav ul li a:hover{
+    background-color: rgb(28, 42, 64);
+    border-radius: 5px;
+}
+
+header{
+    /* border: 1px solid black; */
+    /* margin-top: 0px; */
+    color: rgb(252, 228, 183);
+    background-color: brown;
+    padding: 20px;
+    text-align: center;
+    padding: 25px ;
+    margin: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+        
+}
+header h1{
+    margin: 0;
+    font-size: 2.5rem;
+
+}
+
+/* Blog 1 Style */
+
+#Kolkata{
+    background-color:rgb(194, 223, 249);
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+}
+#Kolkata h2{
+    text-align: center;
+    color:#4b0082;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+#Kolkata p{
+    text-align: justify;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+#Kolkata img{
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+} 
+#Kolkata video{
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Blog 2 Style */
+
+#Bengaluru{
+    background-color:rgb(194, 223, 249);
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* border: 1px solid #251616; */
+    max-width: 900px;
+}
+#Bengaluru h2{
+    text-align: center;
+    color:#4b0082;
+    /* font-size: 2rem;
+    margin-bottom: 20px; */
+}
+#Bengaluru p{
+    text-align: justify;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+#Bengaluru img{
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+} 
+#Bengaluru video{
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* About me Style */
+#about {
+
+        /* border: 2px solid blue; */
+     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+     padding: 20px;
+     margin: 30px auto;
+     border-radius: 8px;
+     max-width: 750px;
+
+}
+
+/*Contact Me Style  */
+#contact{
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+#contact h2{
+    text-align: center;
+    color: #4b0082;
+}
+#contact input,#contact textarea{
+
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: block;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+} 
+ 
+
+
+#contact input[type="submit"]{
+         background-color:#af0101;
+        border: none;
+         color: #fefefe;
+        cursor: pointer;
+        transition: background-color 0.3 ease;
+        max-width: 100px;
+       
+}
+
+#contact input[type="Submit"]:hover{
+    background-color: blueviolet;
+
+}
+
+/* Social Media Contact Link Style */
+#Contact{
+    background-color: #c6f2fb;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 400px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+
+   
+}
+#Contact ul {
+    list-style-type: none;
+    padding: 0px;
+}
+#Contact li{
+    margin: 10px 0px;
+}
+#Contact a {
+
+    font-weight: bold;
+    color: #0071ae;
+    text-decoration: none;
+    transition: color 0.3s;
+   
+}
+#Contact a:hover{
+    color: #005582;
+}
+
+/* Footer Style */
+footer{
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer p{
+    margin: 0;
+    font-size: 0.9rem;
+}

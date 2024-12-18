@@ -29,6 +29,19 @@ This project represents my travel blog, built to:
 | **Versioning**  | Git & GitHub                  |  
 
 
+--
+## 📫 Contact
+If you contact details for feedback or collaboration.
+
+
+
+- **Email**: mrankitsingh4@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/ankit-singh-ba9943287
+
+
+
+
+
 ## 🚀 Getting Started  
 
 To explore this project:  
